@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo2.png" type="image/png">
+    <title>Scholar Ship Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+     <script>
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark-mode');
+        }
+     </script>
+
+</head>
+<body>
+   <header class="header">
+       <nav class="navbar">
+            <div class="container">          
+                <a href="#accueil" class="logo">
+                    <img src="img/logo.jpg" alt="Logo" style="height:32px; vertical-align:middle; margin-right:8px;">
+                    Scholar Ship Agency
+                </a>
+
+                <button class="nav-toggle" aria-label="ouvrir le menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-links" id="nav-menu">
+                    <li class="nav-close-li">
+                        <button class="nav-close" aria-label="fermer le menu">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </li>
+                    <li><img src="img/logo2.png"></li>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#a-propos">A propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="theme-toggle-li">
+                         <div class="theme-toggle">
+                            <input type="checkbox" id="darkmode-toggle" class="darkmode-input">
+                            <label for="darkmode-toggle" class="darkmode-label">
+                                <i class="fas fa-sun"></i>
+                                <i class="fas fa-moon"></i>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+  
+        <div class="hero">
+            <div class="hero-content container" id="accueil">
+                <h1>Votre avenir international commence ici. Trouvez une bourse,</h1>
+                <h2>envolez-vous </h2>
+                <p>Services complets d'offre et d'accompagnement dans l'obtention de bourses d'études.</p>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="prestations container">
+            <h2>Des prestations complètes</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="img/session.jpg" alt="Aide à l'inscription">
+                    <h3>Aide à l'inscription</h3>
+                    <p>DEUXIÈME SESSION DES INSCRIPTIONS OUVERTE</p>
+                </div>
+                <div class="card">
+                    <img src="img/visa.jpg" alt="Obtention du visa">
+                    <h3>Aide à l'obtention du visa</h3>
+                    <p>Description liée à l'obtention du visa.</p>
+                </div>
+                <div class="card">
+                    <img src="img/logement.jpg" alt="Obtention de logements">
+                    <h3>Obtention de logements</h3>
+                    <p>Description liée à l'obtention de logements.</p>
+                </div>
+            </div>
+
+            <div class="explication" >
+            <p>Ouvrez les portes de l'international avec Scholar Ship Agency :<b>France</b>, <b>Canada</b>, <b>Turquie</b>, <b>Maroc</b> ! <br>Nous croyons que les études à l'étranger sont un tremplin vers la réussite, mais aussi une aventure enrichissante.</p>
+            <p><br>Nous vous aidons à concrétiser vos ambitions en vous donnant accès aux bourses qui vous permettront de financer vos projets. Notre mission est de vous accompagner vers votre avenir international, en vous fournissant les outils et les ressources nécessaires</p>
+           </div>
+           
+            </div>
+            <div class="procedure-card" id="procedure">
+                <h2>Étapes de la procédure</h2>
+                <ol>
+                    <li>
+                        <strong>Identification</strong>
+                        <ul>
+                            <li>Enregistrement via le formulaire à remplir.</li>
+                            <li>Vérification de votre identité par l'un des associés de notre bureau (contact WhatsApp ou mail).</li>
+                            <li>Étude de votre profil pour proposer un choix adéquat.</li>
+                            <li><em>Durée : environ 3 jours</em></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Élaboration du dossier</strong>
+                        <ul>
+                            <li>Scan de votre pièce d'identité (CNI ou récépissé valide).</li>
+                            <li>Scan de votre acte de naissance certifié.</li>
+                            <li>Scan de votre baccalauréat.</li>
+                            <li>Photo du postulant sur fond blanc uniforme.</li>
+                            <li>Scan du reçu de paiement des frais d'élaboration de dossier (50€ à 130€ selon l'université).</li>
+                            <li>Scan de la pièce d'identité du parent ou tuteur.</li>
+                            <li><em>Durée : 3 à 5 jours</em></li>
+                            <li><strong>NB :</strong> Des lettres de motivation pourront être demandées par la suite.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Soumission du dossier</strong>
+                        <ul>
+                            <li>Envoi du dossier complet pour vérification (10 à 15 jours).</li>
+                            <li>Réception de la lettre d'admission de l'université par mail.</li>
+                            <li>Ce document sera nécessaire pour la demande de visa.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+<!-- ...existing code... -->
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="services-hero">
+                <h1>Services</h1>
+            </div>
+
+            <div class="container accordion-container">
+                 <div class="etude-accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">ETUDIER EN FRANCE</button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li><input type="checkbox" checked disabled> Inscription dans les écoles françaises.</li>
+                            <li><input type="checkbox" disabled> Université de TROYES. <a href="https://www.utt.fr/">plus d'infos</a></li>
+                            <li><input type="checkbox" disabled> Emlyon business school. <a href="https://em-lyon.com/fr">plus d'infos</a></li>
+                            <li><input type="checkbox" disabled> INSEEC. <a href="https://www.inseec.com/">plus d'infos</a></li>
+                            <li><input type="checkbox" disabled> ENSAO. <a href="#">plus d'infos</a></li>
+                            <li><input type="checkbox" disabled> IFEC Toulouse. <a href="https://ifec.fr/">plus d'infos</a></li>
+                            <li><input type="checkbox" checked disabled> Obtention de l' AVI : caution bancaire.</li>
+                            <li><input type="checkbox" checked disabled> Création compte bancaire.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">ETUDIER AU MAROC</button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li><input type="checkbox" disabled> Détails des services pour étudier au Maroc.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">ETUDIER EN TURQUIE</button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li><input type="checkbox" disabled> Détails des services pour étudier en Turquie.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">ETUDIER AU CANADA</button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li><input type="checkbox" checked disabled> Obtention du titre de séjour.</li>
+                            <li><input type="checkbox" disabled> Admission dans les écoles telles que :</li>
+                            <li><input type="checkbox" checked disabled> Université de LAVAL. <a href="https://www.ulaval.ca/">plus d'infos</a></li>
+                            <li><input type="checkbox" checked disabled> Université McGill. <a href="https://www.mcgill.ca/fr">plus d'infos</a></li>
+                            <li>...</li>
+                            <li><input type="checkbox" disabled> Obtention d'un logement.</li>
+                        </ul>
+                    </div>
+                </div>
+               </div> 
+            </div>
+        </section>
+            
+        <section class="questions section" id="faqs">
+                 <h1 style="text-align: center;">FAQs</h1>
+                <h2 class="section_title-center questions_title container">
+                    Quelques questions auxquelles <br> nous répondons souvent
+                </h2>
+                <div class="questions__container container grid">
+                    <div class="faq-accordion">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Quel est le pourcentage de réussite de la procédure?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Fort de plus de 250 jeunes accompagnés dans leur projet d'études,
+                                    nous pouvons dire avec convictions que le taux de réussite chez nous est 
+                                    de plus de 95%.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Dans quelles pays peut-on étudier?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                 FRANCE, BELGIQUE, TUNISIE, MAROC, CANADA    
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Quels dipômes peut on viser ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                 CANADA: DEP, ASP ;<br> BELGIQUE: Bachelor ;<br>
+                                 TUNISIE: Certificat de compétence, brevet (BTP);<br>
+                                 MAROC: DUT     
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Le suivi continue t-il apres l'admission?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                Oui, nous vous accompagner jusqu'à votre acclimation dans
+                                le pays de destination (1 mois aprés arrivé).    
+                                </p>
+                            </div>
+                        </div>
+                         <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                   Pourquoi vous choisir vous?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                 Avec nous c'est :
+                                 <ol>
+                                    <li> Une connexion solide avec de nombreuses université à travers le monde</li>
+                                    <li> Notre accesibilité en ce qui concerne les frais de services</li>
+                                    <li>Temps de traitement des dossiers.</li>
+                                 </ol>  
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Quels sont les parcours que vous acceptez?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                Que vous soyez issu d'un cursus en anglais, en francais, nous
+                                sommes la solution pour votre projet de mobilité.   
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="container team-members">
+
+              
+            </div>
+        </section>
+
+         <section class="about-us container" id="a-propos">
+            <br><h1 style ="text-align:center;">A PROPOS</h1>
+            <div class="about-card">
+                <h2> Qui somme nous ?</h2>
+Fondée en 2020, notre agence de bourse d'études nouvellement installée au Cameroun a hâte de rapidement s'imposer comme un acteur clé dans l'accompagnement des étudiants vers des opportunités académiques internationales. Notre équipe dévouée et passionnée est composée de professionnels expérimentés et engagés, chacun apportant une expertise unique pour garantir le succès de nos bénéficiaires.
+          <h2>Notre Mission</h2>
+Nous nous engageons à offrir des opportunités éducatives de qualité aux étudiants camerounais, en les aidant à accéder à des bourses d'études internationales. Notre objectif est de contribuer au développement du potentiel académique et professionnel de chaque étudiant, en leur fournissant les ressources et le soutien nécessaires pour réussir.
+<h2>Nos Valeurs</h2>
+<ul>
+    <li> Excellence: Nous visons l'excellence dans tous nos services et accompagnements.</li>
+    <li> Intégrité: Nous agissons avec honnêteté et transparence dans toutes nos interactions. </li>
+    <li>Engagement: Nous sommes dévoués à la réussite de nos étudiants et partenaires.</li>
+    <li>Innovation: Nous cherchons constamment des moyens innovants pour améliorer nos services. </li>
+</ul>
+            </p>
+             <p>
+    Nous sommes fiers de notre équipe et de notre mission, et nous sommes impatients de continuer à aider les étudiants camerounais à atteindre leurs objectifs académiques et professionnel
+             </div>
+           </section>
+           
+           <section id="contact" class="main-section">
+            <h1 style="text-align: center; margin-bottom: 2rem;">Contactez-nous</h1>
+    <div class="container contact-section-content">
+         <div class="contact-column horaire">
+            <h3>PRE-ENREGISTREZ-VOUS</h3>
+            <p>Rejoignez-nous dès maintenant et préparons votre <br>projet d'étude !</p>
+             <a style="color: rgb(30, 30, 69);" href="https://docs.google.com/forms/d/e/1FAIpQLSdH0Z5ggJl4f2RgYlW5RzpCldp-z5K6umWZr6gFH2rJKoYDZw/viewform?usp=headers"  class="bouton_form">
+                Remplir le formulaire dès maintenant
+             </a>
+        </div>
+        <div class="contact-column horaire">
+            <h3>HORAIRE ET DISPONIBILITE</h3>
+            <p style="align-content: center;">Du lundi à vendredi de 9h à 18h<br>
+               Le samedi de 13h à 18h<br>
+            <b>Fermé le dimanche</b></p>
+        </div>
+        <div class="contact-column horaire">
+            <h3>Téléphone</h3>
+            <p><i class="fab fa-whatsapp"></i>  <a href="http://wa.me/qr/M3YBUVYDNXBZM1">Nous écrire 📝</a></p><br>
+            <h3>Email</h3>
+            <p><i class="fas fa-envelope"></i>  <a href="mailto:fernandderonier@gmail.com">Envoyer un Mail</a></p>
+        </div>
+        <div class="contact-column horaire">
+         <div style="text-align: center; margin-block: 1.5em;"><b>
+            Nous acceptons toutes les cartes <br></b>
+         </div>
+            <div class="cartes-row">
+        <img src="img/card1.png" alt="Carte 1" class="carte">
+        <img src="img/card2.png" alt="Carte 2" class="carte">
+        <img src="img/card3.png" alt="Carte 3" class="carte">
+
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+
+    <footer>
+      <img src="img/logo2.png">
+      <div>
+        <b>Scholar Ship Agency</b>, au service de votre avenir !!!
+      </div>
+      <div>
+        <b>NOS RESEAUX: </b><br>
+        <i class="fab fa-whatsapp"></i>  <a href="http://wa.me/qr/M3YBUVYDNXBZM1"> WhatsApp</a><br>
+        <i class="fab fa-instagram"></i><a href="https://www.instagram.com/scholar_ship_agency?igsh=MnlhYm43Z3gzZ2k1">Instagram</a><br>
+               
+      </div>
+    </footer>
+
+
+    <script src="script1.js"></script>
+</body>
+</html>
