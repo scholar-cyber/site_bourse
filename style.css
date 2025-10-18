@@ -216,7 +216,7 @@ body {
 }
 /* Hero Section */
 .hero {
-    background: url('img/montage.jpg') no-repeat center center/cover;
+    background: url('logo/Modele1.3.webp') no-repeat center center/cover;
     background-attachment:scroll; /* CORRECTION: Assure que l'image défile avec la page */
     color: #fff; /* Toujours blanc pour le texte du héros sur l'image sombre */
     text-align: center;
